@@ -5,6 +5,7 @@
 # local
 .env
 docker.env
+rabbitmq.envw
 
 # Logs
 logs

@@ -20,8 +20,6 @@ import { SubscribersService } from './subscribers/subscribers.service';
         POSTGRES_USER: Joi.string().required(),
         POSTGRES_PASSWORD: Joi.string().required(),
         POSTGRES_DB: Joi.string().required(),
-        SUBSCRIBERS_SERVICE_HOST: Joi.string(),
-        SUBSCRIBERS_SERVICE_PORT: Joi.string(),
         PORT: Joi.number()
       })
     })
